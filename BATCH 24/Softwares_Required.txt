@@ -1,0 +1,34 @@
+IOT PROJECT: SLEEP APNEA MONITORING SYSTEM
+----------------------------------------------------
+PRIMARY SOFTWARE REQUIREMENTS
+
+Arduino IDE
+Purpose: Used to write, compile, and upload code to ESP32 microcontroller.
+
+ESP32 Board Package
+Purpose: Enables Arduino IDE to support ESP32 programming.
+
+USB Drivers (CP2102 / CH340)
+Purpose: Required for communication between ESP32 and computer.
+
+ThingSpeak Cloud Platform
+Purpose: Used for storing, visualizing, and monitoring data online.
+
+WiFi Network
+Purpose: Required to send data from ESP32 to cloud platform.
+
+Serial Monitor (Arduino IDE)
+Purpose: Used for debugging and checking output values.
+
+Embedded C / Arduino Programming
+Purpose: Used to develop logic for sensor reading and data processing.
+
+Optional Software:
+
+Proteus
+Purpose: Used for circuit simulation.
+
+Microsoft Excel
+Purpose: Used for analyzing downloaded data.
+
+END OF FILE

@@ -1,0 +1,54 @@
+IOT PROJECT: SLEEP APNEA MONITORING SYSTEM
+----------------------------------------------------
+DEPLOYMENT AND INSTALLATION GUIDE
+
+This guide explains how to set up, run, and deploy the IoT-based Sleep Apnea Monitoring System.
+
+=== PART 1: PREREQUISITES ===
+1. Install Arduino IDE (latest version recommended).
+2. Install ESP32 Board Package in Arduino IDE.
+3. Ensure USB drivers (CP2102/CH340) are installed.
+4. Have a stable WiFi connection.
+5. Basic knowledge of Embedded C / Arduino programming.
+
+=== PART 2: HARDWARE SETUP ===
+1. Connect IR Sensor to ESP32 input pins.
+2. Connect LCD display to ESP32.
+3. Connect Vibration Motor (optional for alerts).
+4. Provide 5V power supply using USB or adapter.
+5. Check all wiring connections properly.
+
+=== PART 3: SOFTWARE SETUP ===
+1. Open Arduino IDE.
+2. Select ESP32 board.
+3. Select correct COM port.
+4. Write or paste the project code.
+5. Add WiFi SSID and Password in code.
+6. Add ThingSpeak API Key.
+
+=== PART 4: RUNNING THE SYSTEM ===
+1. Upload code to ESP32.
+2. Open Serial Monitor for debugging.
+3. Power ON the system.
+4. Place finger on IR sensor.
+5. Observe Heart Rate and SpO2 on LCD.
+
+=== PART 5: CLOUD DEPLOYMENT ===
+1. Create ThingSpeak account.
+2. Create a new channel.
+3. Add fields (Heart Rate, SpO2).
+4. Copy Write API Key.
+5. Paste API Key in Arduino code.
+6. Upload code again.
+
+=== PART 6: DATA MONITORING ===
+1. Open ThingSpeak dashboard.
+2. Check real-time graph updates.
+3. Download data if required.
+
+=== PART 7: FINAL DEPLOYMENT ===
+1. Place system in stable location.
+2. Ensure continuous WiFi connection.
+3. Monitor patient data regularly.
+
+END OF FILE
